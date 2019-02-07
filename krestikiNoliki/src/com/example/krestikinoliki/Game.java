@@ -39,7 +39,7 @@ public class Game {
 	public Game() {
 		field = new Square[3][3];
 		winnerCheckers = new WinnerCheckerInterface[4];
-		winnerCheckers[0] = new WinnerCheckerHorizontal(this);
+		winnerCheckers[0] = new WinnerCheckerHorizontal(this);		//winner winner chicken dinner!!11!!))00))
 		winnerCheckers[1] = new WinnerCheckerVertical(this);
 		winnerCheckers[2] = new WinnerCheckerDiagonalLeft(this);
 		winnerCheckers[3] = new WinnerCheckerDiagonalRight(this);
